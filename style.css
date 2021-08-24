@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 .contener{
     height: 100%;
@@ -50,11 +51,48 @@
 .icona{
     background: rgb(41, 198, 226);
     padding: 10px 5px;
-    margin: 0px 15px;
+    margin: 15px 15px 0px 15px;
     border-radius: 30px;
     text-decoration: none;
     color: #000;
 }
 .icona a:visited{
     color: #fff;
+}
+.inputs{
+    position: relative;
+    margin: 10px auto;
+    width: 70%;
+    transition: .5s;
+    
+}
+.inputs input[type="text"], .inputs input[type="password"]{
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.inputs input[type="checkbox"]{
+    margin: 15px 10px 30px 0;
+}
+.inputs span{
+    color: #777;
+    font-size: 12px;
+
+}
+.inputs button[type="submit"]{
+    width: 80%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 5px auto;
+    background: linear-gradient(to left,  rgb(15, 94, 185),#fff, rgb(15, 94, 185));
+    border-radius: 30px;
+    border: none;
+    outline: none;
 }
