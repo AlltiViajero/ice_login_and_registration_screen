@@ -15,6 +15,30 @@
     background-color: #fff;
     position: relative;
     margin: 10% auto;
-    opacity: 70%;
     padding: 5px;
+}
+.btnbox{
+    width: 70%;
+    margin: 20% auto;
+    position: relative;
+    box-shadow: 0 0 25px 10px rgb(41, 198, 226);
+    border-radius: 50px;
+}
+.toggle-btn{
+    padding: 10px 36px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+}
+.btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, #fff, rgb(15, 94, 185));
+    border-radius: 50px;
+    transition: 0.4s;
 }
