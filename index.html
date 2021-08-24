@@ -17,9 +17,9 @@
 	<div class="contener">
 		<div class="loginbox">
 			<div class="btnbox">
-				<div class="btn"></div>
-				<button type="button" class="toggle-btn">Log In</button>
-				<button type="button" class="toggle-btn">Register</button>
+				<div id="btn"></div>
+				<button type="button" class="toggle-btn" id="lo" >Log In</button>
+				<button type="button" class="toggle-btn" id="reg" >Register</button>
 			</div>
 			<div class="social">
 				<div class="icona">
@@ -38,11 +38,17 @@
 				<input type="checkbox"><span>Remember Password</span>
 				<button type="submit">Log in</button> 
 			</form>
-			
+			<form id="register" class="inputs">
+				<input type="text" placeholder="Ueser name" required >
+				<input type="email" placeholder="Adress e-mail" required >
+				<input type="password" placeholder="Password" required >
+				<input type="checkbox"><span>I agree to the terms and conditions</span>
+				<button type="submit">Register</button> 
+			</form>
 
 		</div>
 	</div>
-	
+	<script src="js.js"></script>
 </body>
 	
 </html>
