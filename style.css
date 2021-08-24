@@ -19,7 +19,7 @@
 }
 .btnbox{
     width: 70%;
-    margin: 20% auto;
+    margin: 10% auto;
     position: relative;
     box-shadow: 0 0 25px 10px rgb(41, 198, 226);
     border-radius: 50px;
@@ -39,6 +39,22 @@
     width: 50%;
     height: 100%;
     background: linear-gradient(to left, #fff, rgb(15, 94, 185));
-    border-radius: 50px;
+    border-radius: 30px;
     transition: 0.4s;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icona{
+    background: rgb(41, 198, 226);
+    padding: 10px 5px;
+    margin: 0px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000;
+}
+.icona a:visited{
+    color: #fff;
 }
