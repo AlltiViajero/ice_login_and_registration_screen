@@ -8,7 +8,7 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    background: url(bg.jpg) no-repeat;
+    background: url(bg.jpg) no-repeat; /*http://wallpaperswide.com/iceland_glacier_lagoon_blue_ice-wallpapers.html */
     background-size: cover;
 }
 .loginbox{
